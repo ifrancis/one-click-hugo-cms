@@ -18,7 +18,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "Configs" # https://stackoverflow.com/questions/48365670/add-to-hugo-site-variables-from-netlify-cms/48371570#48371570
     label: "Config"
     files:
-      - file: "data/menu.toml"
+      - file: "site/data/menu.toml"
         label: "Menu data"
         name: "Menu"
         fields:

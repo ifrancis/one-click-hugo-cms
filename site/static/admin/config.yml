@@ -18,21 +18,18 @@ collections: # A list of collections the CMS should be able to edit
   - name: "Configs" # https://stackoverflow.com/questions/48365670/add-to-hugo-site-variables-from-netlify-cms/48371570#48371570
     label: "Config"
     files:
-      - file: "site/data/menu.toml"
+      - file: "site/data/menu.yml"
         label: "Menu data"
         name: "Menu"
+        extension: "yml"
         fields:
-          - name: "menu"
-            label: "Menu collection"
-            widget: "object"
+          - name: "item"
+            label: "Menu item"
+            widget: "list"
+            create: true # Allow users to create new documents in this collection
             fields:
-              - name: "item"
-                label: "Menu Item"
-                widget: "list"
-                create: true # Allow users to create new documents in this collection
-                fields:
-                  - { label: "Name", name: "name", widget: "string" }
-                  - { label: "Destination", name: "url", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Url", name: "url", widget: "string" }
   - name: "pages"
     label: "Pages"
     files:

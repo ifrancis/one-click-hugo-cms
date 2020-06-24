@@ -1,9 +1,0 @@
-[menu]
-
-[[menu.item]]
-title = "Bananas"
-destination = "/grapes"
-
-[[menu.item]]
-title = "Apples"
-destination = "/apples"

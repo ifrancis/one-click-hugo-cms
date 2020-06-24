@@ -1,0 +1,14 @@
+
+[[menu]]
+  identifier = "sands"
+  name = "SANDS"
+  url = "/sand"
+  weight = -110
+[[menu]]
+  name = "item two"
+  url = "/item-two"
+  weight = -100
+[[menu]]
+  name = "bazookas"
+  url = "/bazookas"
+  weight = -90

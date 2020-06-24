@@ -1,0 +1,20 @@
+[
+    {
+        "identifier": "sands",
+        "name": "SANDS",
+        "url": "/sand",
+        "weight": -90
+    },
+    {
+        "identifier": "option two",
+        "name": "TWO",
+        "url": "/two",
+        "weight": -100
+    },
+    {
+        "identifier": "three",
+        "name": "THREE",
+        "url": "/three",
+        "weight": -110
+    }
+]

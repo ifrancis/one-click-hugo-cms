@@ -1,3 +1,5 @@
 item:
-  - name: Test
+  - name: TestA
     url: /test
+  - name: TestB
+    url: /testb

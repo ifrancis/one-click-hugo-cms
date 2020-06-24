@@ -31,8 +31,8 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "list"
                 create: true # Allow users to create new documents in this collection
                 fields:
-                  - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Destination", name: "destination", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Destination", name: "url", widget: "string" }
   - name: "pages"
     label: "Pages"
     files:

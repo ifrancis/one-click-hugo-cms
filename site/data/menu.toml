@@ -1,14 +1,10 @@
 
 [[menu]]
-  identifier = "sands"
-  name = "SANDS"
-  url = "/sand"
-  weight = -110
+  name = "Pears"
+  url = "/fruity"
 [[menu]]
-  name = "item two"
-  url = "/item-two"
-  weight = -100
+  name = "Grapefruit"
+  url = "/grape-fruit"
 [[menu]]
-  name = "bazookas"
-  url = "/bazookas"
-  weight = -90
+  name = "Grenades"
+  url = "/arms-race"

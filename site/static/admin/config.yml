@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "Configs" # https://stackoverflow.com/questions/48365670/add-to-hugo-site-variables-from-netlify-cms/48371570#48371570
-    label: "Config"
+    label: "Config" # https://stackoverflow.com/questions/47730571/collections-in-hugo-data-file-using-netlify-cms?rq=1
     files:
       - file: "site/data/menu.yml"
         label: "Menu data"

@@ -10,7 +10,7 @@ export default class PostPreview extends React.Component {
 
     // Bit of a nasty hack to make relative paths work as expected as a background image here
     if (image && !image.fileObj) {
-        image = window.parent.location.protocol + "//" + window.parent.location.host + image;
+        // image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
 
     return <div>
@@ -52,7 +52,7 @@ export default class PostPreview extends React.Component {
               </div>
 
               <div className="w-60-l ph2-l">
-                <img src={entry.getIn(["data", "values", "image"])} alt="" className="mb3"/>
+                <img src={getAsset(entry.getIn(["data", "values", "image"]))} alt="" className="mb3"/>
               </div>
             </div>
 
